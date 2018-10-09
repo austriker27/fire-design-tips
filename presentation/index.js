@@ -30,7 +30,12 @@ const slidesImports = [
   import("./slides/1"),
   import("./slides/2"),
   import("./slides/3"),
-  import("./slides/4")
+  import("./slides/4"),
+  import("./slides/5"),
+  import("./slides/6"),
+  import("./slides/7"),
+  import("./slides/8"),
+  import("./slides/9")
 ];
 
 // maybe use this one if noe display doesnt work: https://fonts.google.com/specimen/Abril+Fatface
