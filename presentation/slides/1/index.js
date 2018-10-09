@@ -4,7 +4,7 @@ import { Heading, Slide, Text } from "spectacle";
 
 
 export default (
-  <Slide transition={["zoom"]} bgColor="primary">
+  <Slide transition={["fade"]} bgColor="primary">
     <Heading size={1} fit caps lineHeight={1} textColor="secondary">
       🔥 Web Design Tips
     </Heading>
