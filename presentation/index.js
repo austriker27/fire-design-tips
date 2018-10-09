@@ -3,15 +3,8 @@ import React from "react";
 
 // Import Spectacle Core tags
 import {
-  BlockQuote,
-  Cite,
   Deck,
-  Heading,
-  ListItem,
-  List,
-  Quote,
-  Slide,
-  Text
+  Slide
 } from "spectacle";
 
 // Import theme
@@ -33,44 +26,43 @@ const theme = createTheme(
   }
 );
 
+const slidesImports = [
+  import("./slides/1"),
+  import("./slides/2"),
+  import("./slides/3"),
+  import("./slides/4")
+];
+
 // maybe use this one if noe display doesnt work: https://fonts.google.com/specimen/Abril+Fatface
 
 export default class Presentation extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      slides: Array(slidesImports.length).fill(<Slide key="loading" />)
+    };
+  }
+
+  componentDidMount() {
+    const importedSlides = [];
+    Promise.all(slidesImports).then((slidesImportsRsolved) => {
+      slidesImportsRsolved.forEach((slide) => {
+        importedSlides.push(slide.default);
+      });
+      this.setState({ slides: importedSlides });
+    });
+  }
+
   render() {
+    const { slides } = this.state;
     return (
       <Deck transition={["zoom", "slide"]} transitionDuration={500} theme={theme}>
-        <Slide transition={["zoom"]} bgColor="primary">
-          <Heading size={1} fit caps lineHeight={1} textColor="secondary">
-            Spectacle Boilerplate
-          </Heading>
-          <Text margin="10px 0 0" textColor="tertiary" size={1} fit bold>
-            open the presentation/index.js file to get started
-          </Text>
-        </Slide>
-        <Slide transition={["fade"]} bgColor="tertiary">
-          <Heading size={6} textColor="primary" caps>Typography</Heading>
-          <Heading size={1} textColor="secondary">Heading 1</Heading>
-          <Heading size={2} textColor="secondary">Heading 2</Heading>
-          <Heading size={3} textColor="secondary">Heading 3</Heading>
-          <Heading size={4} textColor="secondary">Heading 4</Heading>
-          <Heading size={5} textColor="secondary">Heading 5</Heading>
-          <Text size={6} textColor="secondary">Standard text</Text>
-        </Slide>
-        <Slide transition={["fade"]} bgColor="primary" textColor="tertiary">
-          <Heading size={6} textColor="secondary" caps>Standard List</Heading>
-          <List>
-            <ListItem>Item 1</ListItem>
-            <ListItem>Item 2</ListItem>
-            <ListItem>Item 3</ListItem>
-            <ListItem>Item 4</ListItem>
-          </List>
-        </Slide>
-        <Slide transition={["fade"]} bgColor="secondary" textColor="primary">
-          <BlockQuote>
-            <Quote>Example Quote</Quote>
-            <Cite>Author</Cite>
-          </BlockQuote>
-        </Slide>
+        {
+          slides.map((slide, index) => {
+            return React.cloneElement(slide, { key: index });
+          })
+        }
       </Deck>
     );
   }
