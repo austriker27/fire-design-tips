@@ -1,6 +1,6 @@
 // Import React
 import React from "react";
-import { Heading, Slide, Text, Link, Image } from "spectacle";
+import { Heading, Slide, Link, Image } from "spectacle";
 
 const picture = require("../../../assets/button-background.jpg");
 
@@ -9,9 +9,6 @@ export default (
     <Heading size={6} textColor="secondary" caps >
       Button Backgrounds
     </Heading>
-    <Text margin="10px 0 0" textColor="tertiary" size={6}>
-      subtitle
-    </Text>
     <Image src={picture} />
     <Link href="https://twitter.com/steveschoger/status/1012011421956300801" size={6} textColor="quaternary"> Source
     </Link>

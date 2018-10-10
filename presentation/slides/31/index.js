@@ -1,19 +1,16 @@
 // Import React
 import React from "react";
-import { Heading, Slide, Text, Link, Image } from "spectacle";
+import { Heading, Slide, Link, Image } from "spectacle";
 
-const picture = require("../../../assets/colors-desat-hero.jpg");
+const picture = require("../../../assets/card-design-tips.jpg");
 
 export default (
   <Slide bgColor="primary" notes="notes">
     <Heading size={6} textColor="secondary" caps >
-      Color Tips
+      Random polishing tips
     </Heading>
-    <Text margin="10px 0 0" textColor="tertiary" size={6}>
-      subtitle
-    </Text>
     <Image src={picture} />
-    <Link href="https://google.com" size={6} textColor="quaternary"> Source
+    <Link href="https://twitter.com/steveschoger/status/994234772502339586" size={6} textColor="quaternary"> Source
     </Link>
   </Slide>
 );

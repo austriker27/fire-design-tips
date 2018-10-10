@@ -1,19 +1,17 @@
 // Import React
 import React from "react";
-import { Heading, Slide, Text, Link, Image } from "spectacle";
+import { Heading, Slide, Link, Image } from "spectacle";
 
-const picture = require("../../../assets/colors-desat-hero.jpg");
+const picture = require("../../../assets/think-outside-db.jpg");
 
 export default (
-  <Slide bgColor="primary" notes="notes">
+  <Slide bgColor="primary" notes="Don't be afraid to think outside the database — your UI doesn't need to map one-to-one with your data's fields and values. Here are a few ideas you can use to present field: value data in a more interesting way:">
     <Heading size={6} textColor="secondary" caps >
-      Color Tips
+      Presenting Data
     </Heading>
-    <Text margin="10px 0 0" textColor="tertiary" size={6}>
-      subtitle
-    </Text>
+
     <Image src={picture} />
-    <Link href="https://google.com" size={6} textColor="quaternary"> Source
+    <Link href="https://twitter.com/steveschoger/status/997125312411570176" size={6} textColor="quaternary"> Source
     </Link>
   </Slide>
 );
