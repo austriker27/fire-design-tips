@@ -4,7 +4,7 @@ import { Slide, Text } from "spectacle";
 
 
 export default (
-  <Slide transition={["fade"]} bgColor="primary">
+  <Slide bgColor="primary">
     <Text margin="10px 0 0" textColor="secondary" size={1} fit bold>
       (As told to me by @steveschoger*)
     </Text>

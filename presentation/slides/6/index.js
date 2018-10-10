@@ -5,7 +5,7 @@ import { Heading, Slide, Text, Link, Image } from "spectacle";
 const liberalSpacing = require("../../../assets/typography-liberal-spacing.png");
 
 export default (
-  <Slide transition={["fade"]} bgColor="primary">
+  <Slide bgColor="primary">
     <Heading size={6} textColor="secondary" caps>
       Typography Tips
     </Heading>

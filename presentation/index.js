@@ -35,7 +35,18 @@ const slidesImports = [
   import("./slides/6"),
   import("./slides/7"),
   import("./slides/8"),
-  import("./slides/9")
+  import("./slides/9"),
+  import("./slides/10"),
+  import("./slides/11"),
+  import("./slides/12"),
+  import("./slides/13"),
+  import("./slides/14"),
+  import("./slides/15"),
+  import("./slides/16"),
+  import("./slides/17"),
+  import("./slides/18"),
+  import("./slides/19"),
+  import("./slides/20")
 ];
 
 // maybe use this one if noe display doesnt work: https://fonts.google.com/specimen/Abril+Fatface
@@ -62,7 +73,7 @@ export default class Presentation extends React.Component {
   render() {
     const { slides } = this.state;
     return (
-      <Deck transition={["zoom", "slide"]} transitionDuration={500} theme={theme}>
+      <Deck transition={["zoom", "slide"]} transitionDuration={500} theme={theme} progress={"bar"}>
         {
           slides.map((slide, index) => {
             return React.cloneElement(slide, { key: index });

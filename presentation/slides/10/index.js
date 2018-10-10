@@ -2,7 +2,7 @@
 import React from "react";
 import { Heading, Slide, Text, Link, Image } from "spectacle";
 
-const spacingMultiples = require("../../../assets/typography-multiples.png");
+const coloredBackgroundText = require("../../../assets/typography-colored-background-text.png");
 
 export default (
   <Slide bgColor="primary">
@@ -10,9 +10,9 @@ export default (
       Typography Tips
     </Heading>
     <Text margin="10px 0 0" textColor="tertiary" size={6}>
-      Multiples
+      Saturate Text With Background Color
     </Text>
-    <Image src={spacingMultiples} height={400} />
+    <Image src={coloredBackgroundText} />
     <Link href="http://www.steveschoger.com/2017/07/19/6-tips-that-will-improve-your-ui-typography/" size={6} textColor="quaternary"> Source
     </Link>
   </Slide>

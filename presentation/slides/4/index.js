@@ -11,7 +11,6 @@ const images = {
 
 export default (
   <Slide
-    transition={["fade"]}
     bgColor="primary"
   >
     {/* <List>
@@ -26,36 +25,36 @@ export default (
     <Layout>
       <Appear>
         <Fill>
-          <Image src={images.heropatterns} />
-          <Link href="" margin="10px 0 0" textColor="secondary" size={1} fit bold>
+          <Link href="" margin="10px 0 0" textColor="tertiary" size={1} fit bold>
             HeroPatterns
           </Link>
+          <Image src={images.heropatterns} padding="0px 10px" />
         </Fill>
       </Appear>
       <Appear>
         <Fill>
-          <Image src={images.heroicons} />
-          <Link href="" margin="10px 0 0" textColor="secondary" size={1} fit bold>
+          <Link href="" margin="10px 0 0" textColor="tertiary" size={1} fit bold>
             Heroicons
           </Link>
+          <Image src={images.heroicons} padding="0px 10px" />
         </Fill>
       </Appear>
     </Layout>
     <Layout>
       <Appear>
         <Fill>
-          <Image src={images.zondicons} />
-          <Link href="" margin="10px 0 0" textColor="secondary" size={1} fit bold>
+          <Link href="" margin="10px 0 0" textColor="tertiary" size={1} fit bold>
             Zondicons
           </Link>
+          <Image src={images.zondicons} padding="0px 10px" />
         </Fill>
       </Appear>
       <Appear>
         <Fill>
-          <Image src={images.refactoringui} />
-          <Link href="" margin="10px 0 0" textColor="secondary" size={1} fit bold>
+          <Link href="" margin="10px 0 0" textColor="tertiary" size={1} fit bold>
             Refactoring UI, a website & book
           </Link>
+          <Image src={images.refactoringui} padding="0px 10px" />
         </Fill>
       </Appear>
 

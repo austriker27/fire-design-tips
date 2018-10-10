@@ -1,14 +1,33 @@
 // Import React
 import React from "react";
-import { Heading, Slide, Text } from "spectacle";
+import { Appear, List, ListItem, Heading, Slide } from "spectacle";
 
 export default (
-  <Slide transition={["fade"]} bgColor="primary">
+  <Slide bgColor="primary">
     <Heading size={6} textColor="secondary" caps>
-      More room to breathe
+      Top Takeaways
     </Heading>
-    <Text margin="10px 0 0" textColor="secondary" size={6}>
-      padding on everything
-    </Text>
+    <List>
+      <Appear>
+        <ListItem margin="10px 0 0" textColor="tertiary" size={6}>
+          More Room To Breathe
+        </ListItem>
+      </Appear>
+      <Appear>
+        <ListItem margin="10px 0 0" textColor="tertiary" size={6}>
+          More Room To Breathe
+        </ListItem>
+      </Appear>
+      <Appear>
+        <ListItem margin="10px 0 0" textColor="tertiary" size={6}>
+          More Room To Breathe
+        </ListItem>
+      </Appear>
+      <Appear>
+        <ListItem margin="10px 0 0" textColor="tertiary" size={6}>
+          More Room To Breathe
+        </ListItem>
+      </Appear>
+    </List>
   </Slide>
 );
