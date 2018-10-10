@@ -1,0 +1,9 @@
+.background-gradient {
+  background-image: linear-gradient(to right top, #25263d, #384a67, #487190, #589cb7, #6fc8da);
+}
+
+@font-face {
+  font-family: 'NoeDisplay';
+  src: url('./assets/Noe Display Bold.woff') format('woff'),
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
