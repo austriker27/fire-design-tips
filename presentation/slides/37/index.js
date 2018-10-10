@@ -7,7 +7,7 @@ const picture = require("../../../assets/remove-borders.jpg");
 export default (
   <Slide bgColor="primary" notes="Too many borders can make a design look really busy. Here's a few ideas that are a bit more subtle:">
     <Heading size={6} textColor="secondary" caps >
-      Remove borders!
+      Bye Bye Borders
     </Heading>
 
     <Image src={picture} />

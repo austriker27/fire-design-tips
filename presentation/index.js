@@ -46,7 +46,37 @@ const slidesImports = [
   import("./slides/17"),
   import("./slides/18"),
   import("./slides/19"),
-  import("./slides/20")
+  import("./slides/20"),
+  import("./slides/21"),
+  import("./slides/22"),
+  import("./slides/23"),
+  import("./slides/24"),
+  import("./slides/25"),
+  import("./slides/26"),
+  import("./slides/27"),
+  import("./slides/28"),
+  import("./slides/29"),
+  import("./slides/30"),
+  import("./slides/31"),
+  import("./slides/32"),
+  import("./slides/33"),
+  import("./slides/34"),
+  import("./slides/35"),
+  import("./slides/36"),
+  import("./slides/37"),
+  import("./slides/38"),
+  import("./slides/39"),
+  import("./slides/40"),
+  import("./slides/41"),
+  import("./slides/42"),
+  import("./slides/43"),
+  import("./slides/44"),
+  import("./slides/45"),
+  import("./slides/46")
+  // import("./slides/47"),
+  // import("./slides/48"),
+  // import("./slides/49"),
+  // import("./slides/50")
 ];
 
 // maybe use this one if noe display doesnt work: https://fonts.google.com/specimen/Abril+Fatface

@@ -2,7 +2,7 @@
 import React from "react";
 import { Heading, Slide, Link, Image } from "spectacle";
 
-const picture = require("../../../assets/table-design-more-interesting.jpg");
+const picture = require("../../../assets/table-design-more-interesting.png");
 
 export default (
   <Slide bgColor="primary" notes="Get creative with table design — table cells can contain more than simple unstyled text. Here are a few ways to make tables look more interesting:">

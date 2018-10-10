@@ -2,7 +2,7 @@
 import React from "react";
 import { Heading, Slide, Text, Link, Image } from "spectacle";
 
-const picture = require("../../../assets/radio-button-cards.jpg");
+const picture = require("../../../assets/radio-button-cards.png");
 
 export default (
   <Slide bgColor="primary" notes="Get creative with radio button interfaces — don’t be limited by the typical list-of-options approach. For example, using selectable cards gives you the freedom to present the options in a more exciting way:">

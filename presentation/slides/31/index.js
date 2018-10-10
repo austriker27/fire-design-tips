@@ -2,7 +2,7 @@
 import React from "react";
 import { Heading, Slide, Link, Image } from "spectacle";
 
-const picture = require("../../../assets/card-design-tips.jpg");
+const picture = require("../../../assets/card-design-tips.png");
 
 export default (
   <Slide bgColor="primary" notes="notes">

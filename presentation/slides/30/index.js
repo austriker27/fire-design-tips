@@ -2,7 +2,7 @@
 import React from "react";
 import { Heading, Slide, Link, Image } from "spectacle";
 
-const picture = require("../../../assets/think-outside-db.jpg");
+const picture = require("../../../assets/think-outside-db.png");
 
 export default (
   <Slide bgColor="primary" notes="Don't be afraid to think outside the database — your UI doesn't need to map one-to-one with your data's fields and values. Here are a few ideas you can use to present field: value data in a more interesting way:">
