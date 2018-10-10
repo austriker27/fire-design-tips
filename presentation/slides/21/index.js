@@ -6,7 +6,7 @@ const picture = require("../../../assets/colors-desat-hero.jpg");
 
 export default (
   <Slide bgColor="primary" notes="Desaturated photo + bold color + blend-mode: multiply. Great for hero banners and creating high contrast for text.">
-    <Heading size={6} textColor="secondary" caps >
+    <Heading size={6} textColor="secondary" caps>
       Color Tips
     </Heading>
     <Text margin="10px 0 0" textColor="tertiary" size={6}>

@@ -6,7 +6,7 @@ const picture = require("../../../assets/selection-background-framer.png");
 
 export default (
   <Slide bgColor="primary" notes="I always appreciate when a site styles the selection background and text color. I think it really shows that whoever developed it cares about the details - from @framer,">
-    <Heading size={6} textColor="secondary" caps >
+    <Heading size={6} textColor="tertiary" italic >
       Selection Background & Text Color
     </Heading>
 

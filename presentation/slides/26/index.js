@@ -6,7 +6,7 @@ const picture = require("../../../assets/table-design-more-interesting.png");
 
 export default (
   <Slide bgColor="primary" notes="Get creative with table design — table cells can contain more than simple unstyled text. Here are a few ways to make tables look more interesting:">
-    <Heading size={6} textColor="secondary" caps >
+    <Heading size={6} textColor="tertiary" italic >
       Table Design
     </Heading>
     <Image src={picture} />

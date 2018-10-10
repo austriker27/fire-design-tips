@@ -26,7 +26,7 @@ export default (
       <Appear>
         <Fill>
           <Link href="" margin="10px 0 0" textColor="tertiary" size={1} fit bold>
-            HeroPatterns
+            Hero Patterns
           </Link>
           <Image src={images.heropatterns} padding="0px 10px" />
         </Fill>
@@ -52,7 +52,7 @@ export default (
       <Appear>
         <Fill>
           <Link href="" margin="10px 0 0" textColor="tertiary" size={1} fit bold>
-            Refactoring UI, a website & book
+            Refactoring UI, a website & WIP book
           </Link>
           <Image src={images.refactoringui} padding="0px 10px" />
         </Fill>

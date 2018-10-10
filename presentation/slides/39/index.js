@@ -6,7 +6,7 @@ const picture = require("../../../assets/icons-instead-of-buttons.jpg");
 
 export default (
   <Slide bgColor="primary" notes="Using a generic icon like an arrow or a checkmark instead of the standard bullet is a great way to add visual interest to unordered lists.">
-    <Heading size={6} textColor="secondary" caps >
+    <Heading size={6} textColor="tertiary" italic >
       Replace standard bullets
     </Heading>
 

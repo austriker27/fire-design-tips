@@ -6,7 +6,7 @@ const picture = require("../../../assets/checkout-page-redesign.jpg");
 
 export default (
   <Slide bgColor="primary" notes="">
-    <Heading size={6} textColor="secondary" caps >
+    <Heading size={6} textColor="tertiary" italic >
       Checkout page redesign
     </Heading>
 

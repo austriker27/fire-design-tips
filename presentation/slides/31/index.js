@@ -6,7 +6,7 @@ const picture = require("../../../assets/card-design-tips.png");
 
 export default (
   <Slide bgColor="primary" notes="notes">
-    <Heading size={6} textColor="secondary" caps >
+    <Heading size={6} textColor="tertiary" italic >
       Random polishing tips
     </Heading>
     <Image src={picture} />

@@ -6,7 +6,7 @@ const picture = require("../../../assets/overlapping-images.jpg");
 
 export default (
   <Slide bgColor="primary" notes="Overlapping images is a great way to add depth to an interface and make it look more “designed”. Use a border that matches the background color to create distinction and keep things looking clean">
-    <Heading size={6} textColor="secondary" caps >
+    <Heading size={6} textColor="tertiary" italic >
       Add Depth
     </Heading>
 

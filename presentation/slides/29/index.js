@@ -6,7 +6,7 @@ const picture = require("../../../assets/button-background.png");
 
 export default (
   <Slide bgColor="primary" notes="If you're tired of using outline styles for secondary buttons, a soft solid background based on the text color can be a great alternative.">
-    <Heading size={6} textColor="secondary" caps >
+    <Heading size={6} textColor="tertiary" italic >
       Button Backgrounds
     </Heading>
     <Image src={picture} />

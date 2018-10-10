@@ -6,7 +6,7 @@ const picture = require("../../../assets/table-design-2.jpg");
 
 export default (
   <Slide bgColor="primary" notes="notes">
-    <Heading size={6} textColor="secondary" caps >
+    <Heading size={6} textColor="tertiary" italic >
       Table Design Pt 2
     </Heading>
     <Image src={picture} />

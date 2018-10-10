@@ -8,8 +8,8 @@ export default (
     <Heading size={1} fit caps lineHeight={1} textColor="secondary">
       🔥 Web Design Tips
     </Heading>
-    <Text margin="10px 0 0" textColor="tertiary" size={6}>
-      (for us developers)
+    <Text margin="10px 0 0" textColor="tertiary" size={6} italic>
+      (for us non designers)
     </Text>
   </Slide>
 );

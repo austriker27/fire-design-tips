@@ -6,7 +6,7 @@ const picture = require("../../../assets/create-a-dot-map.jpg");
 
 export default (
   <Slide bgColor="primary" notes="How to make a stylish map with no graphic design skills - good for companies contact pages">
-    <Heading size={6} textColor="secondary" caps >
+    <Heading size={6} textColor="tertiary" italic >
       Create A Dot Map
     </Heading>
 

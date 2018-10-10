@@ -6,7 +6,7 @@ const picture = require("../../../assets/inactive-icons.jpg");
 
 export default (
   <Slide bgColor="primary" notes="If I am using icons that have more weight than the text, I typically make the icons slightly lighter than the text for inactive states">
-    <Heading size={6} textColor="secondary" caps >
+    <Heading size={6} textColor="tertiary" italic >
       Inactive icons
     </Heading>
 

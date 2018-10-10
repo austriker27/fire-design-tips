@@ -6,7 +6,7 @@ const picture = require("../../../assets/colors-images-desat.jpg");
 
 export default (
   <Slide bgColor="primary" notes="Working with images that clash with each other? Try desaturating them to greyscale or colorizing them all with a single color to make them a little more cohesive.">
-    <Heading size={6} textColor="secondary" caps >
+    <Heading size={6} textColor="secondary" caps>
       Color Tips
     </Heading>
     <Text margin="10px 0 0" textColor="tertiary" size={6}>

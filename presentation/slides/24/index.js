@@ -6,7 +6,7 @@ const picture = require("../../../assets/styling-font-color-weight.jpg");
 
 export default (
   <Slide bgColor="primary" notes="notes">
-    <Heading size={6} textColor="secondary" caps >
+    <Heading size={6} textColor="secondary" caps>
       Emphasize / De-emphasize Text
     </Heading>
     <Text margin="10px 0 0" textColor="tertiary" size={6}>

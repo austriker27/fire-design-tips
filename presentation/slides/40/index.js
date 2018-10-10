@@ -6,7 +6,7 @@ const picture = require("../../../assets/overlap-elements.jpg");
 
 export default (
   <Slide bgColor="primary" notes="Overlapping elements on a page is a great way to create depth and encourage users to scroll">
-    <Heading size={6} textColor="secondary" caps >
+    <Heading size={6} textColor="tertiary" italic >
       Overlapping Elements
     </Heading>
 
