@@ -14,39 +14,6 @@ export default (
     <Heading size={6} textColor="secondary" caps>
       Real world drop downs
     </Heading>
-
-    <Layout>
-      <Appear>
-        <Fill>
-          <Text
-            href=""
-            margin="10px 0 0"
-            textColor="tertiary"
-            size={1}
-            fit
-            bold
-          >
-            Digital Ocean
-          </Text>
-          <Image src={images.digitalocean} padding="0px 10px" />
-        </Fill>
-      </Appear>
-      <Appear>
-        <Fill>
-          <Text
-            href=""
-            margin="10px 0 0"
-            textColor="tertiary"
-            size={1}
-            fit
-            bold
-          >
-            Stripe
-          </Text>
-          <Image src={images.stripe} padding="0px 10px" />
-        </Fill>
-      </Appear>
-    </Layout>
     <Layout>
       <Appear>
         <Fill>
