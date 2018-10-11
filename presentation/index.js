@@ -21,7 +21,7 @@ const theme = createTheme(
     quaternary: "#6FC8DA"
   },
   {
-    primary: "Abril Fatface",
+    primary: "Playfair Display",
     secondary: "Raleway"
   }
 );
@@ -74,12 +74,10 @@ const slidesImports = [
   import("./slides/45"),
   import("./slides/46"),
   import("./slides/47"),
-  import("./slides/48")
-  // import("./slides/49"),
+  import("./slides/48"),
+  import("./slides/49")
   // import("./slides/50")
 ];
-
-// maybe use this one if noe display doesnt work: https://fonts.google.com/specimen/Abril+Fatface
 
 export default class Presentation extends React.Component {
   constructor(props) {
