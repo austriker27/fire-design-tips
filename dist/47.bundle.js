@@ -1,0 +1,1 @@
+webpackJsonp([47],{1241:function(e,o,t){"use strict";function i(e){return e&&e.__esModule?e:{default:e}}Object.defineProperty(o,"__esModule",{value:!0});var d=t(274),l=i(d),r=t(1),a=(i(r),t(509));o.default=(0,l.default)(a.Slide,{bgColor:"primary"},void 0,(0,l.default)(a.Heading,{size:1,fit:!0,caps:!0,lineHeight:1,textColor:"secondary"},void 0,"Color Tips"))}});

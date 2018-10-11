@@ -21,8 +21,8 @@ const theme = createTheme(
     quaternary: "#6FC8DA"
   },
   {
-    primary: "NoeDisplay",
-    secondary: "Aktiv Grotesk"
+    primary: "Abril Fatface",
+    secondary: "Raleway"
   }
 );
 
